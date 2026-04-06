@@ -415,7 +415,3 @@ FROM inversiones
 GROUP BY inversiones.cliente_id;
 ```
 
-SELECT inversiones.cliente_id,
-SUM(inversiones.valor_actual - inversiones.cantidad) AS crecimiento
-FROM inversiones
-GROUP BY inversiones.cliente_id;
